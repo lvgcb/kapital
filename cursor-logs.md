@@ -1,0 +1,4 @@
+- Исправлены все ошибки сборки TypeScript (unused imports/variables):
+  - Удалены неиспользуемые импорты (`Save`, `Key`, `MessageCircle`, `User`, `PenTool` и др.) из компонентов.
+  - Закомментирован неиспользуемый стейт `showApiKeyInput` в `ChatWidget.tsx` (так как ввод ключа мы убрали).
+- Сборка `npm run build` теперь проходит успешно.
